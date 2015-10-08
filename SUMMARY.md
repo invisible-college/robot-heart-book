@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [Parse](chapter1.md)
 * [Activity Lifecycle](activity_lifecycle.md)
 * [Local Storage](local_storage.md)
 * [React Native](react_native.md)
