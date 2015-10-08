@@ -5,4 +5,5 @@
 * [Activity Lifecycle](activity_lifecycle.md)
 * [Local Storage](local_storage.md)
 * [React Native](react_native.md)
+* Java Collections
 
