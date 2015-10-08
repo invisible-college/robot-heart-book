@@ -6,5 +6,5 @@
 * [Local Storage](local_storage.md)
 * [React Native](react_native.md)
 * [Java Collections](java_collections.md)
-* Minecraft Mods
+* [Minecraft Mods](minecraft_mods.md)
 
