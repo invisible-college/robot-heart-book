@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
-* Activity Lifecycle
+* [Activity Lifecycle](activity_lifecycle.md)
 
