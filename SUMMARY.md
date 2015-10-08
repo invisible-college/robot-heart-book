@@ -4,5 +4,5 @@
 * [First Chapter](chapter1.md)
 * [Activity Lifecycle](activity_lifecycle.md)
 * [Local Storage](local_storage.md)
-* React Native
+* [React Native](react_native.md)
 
