@@ -9,4 +9,5 @@
 * [Minecraft Mods](minecraft_mods.md)
 * [Maps and Geoprogramming](maps_and_geoprogramming.md)
 * [Touchscreen Input](touchscreen_input.md)
+* Java Networking
 
