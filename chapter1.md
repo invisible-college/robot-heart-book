@@ -1,6 +1,6 @@
 # Parse
 
-A popular collection of web services that handle the most common needs of all mobile and web apps: data store, session information, user authentication, analytics, logging, and more.
+Parse is a popular collection of web services that handle the most common needs of all mobile and web apps: data store, session information, user authentication, analytics, logging, and more. In the past, app developers had to write their own backend servers.
 
 We will use it in combination with an image-loading library Picasso, and a custom list adapter, in order to write a sample application, selling books in a store.
 
