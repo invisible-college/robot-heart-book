@@ -12,6 +12,6 @@
 * [Java Networking](java_networking.md)
 * [Image Loading](image_loading.md)
 * [The Sound Institute of So Und](so_und.md)
-* All Aboard the Statebus
+* [All Aboard the Statebus](statebus.md)
 * [Meteor and Cordova](meteor_cordova.md)
 
