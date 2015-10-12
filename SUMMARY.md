@@ -14,5 +14,5 @@
 * [The Sound Institute of So Und](so_und.md)
 * [All Aboard the Statebus](statebus.md)
 * [Meteor and Cordova](meteor_cordova.md)
-* Tools
+* [Tools](tools.md)
 
