@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Tools](tools.md)
 * [Parse](chapter1.md)
 * [Activity Lifecycle](activity_lifecycle.md)
 * [Local Storage](local_storage.md)
@@ -14,5 +15,4 @@
 * [The Sound Institute of So Und](so_und.md)
 * [All Aboard the Statebus](statebus.md)
 * [Meteor and Cordova](meteor_cordova.md)
-* [Tools](tools.md)
 
