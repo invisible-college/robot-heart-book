@@ -15,6 +15,6 @@ With links to internal documents.
 I haven't quite got the hang of these footnotes yet.
 [arbitrary case-insensitive reference text]
 
-[arbitrary case-insensitive reference text]: https://www.duckduckgo.org
+[arbitrary case-insensitive reference text]: https://www.duckduckgo.com
 [1]: https://news.ycombinator.com/
 [link text itself]: An insightful footnote reflecting the above text through the lens of contemporary society.
