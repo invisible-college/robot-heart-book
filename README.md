@@ -1,7 +1,7 @@
 Introduction
 ================
 
-This is a book under heavy construction. If this were a website in the year 2000, there would be an animated gif with some hard hats and traffic cones. I'll include links here to recent tutorials for the benefit of my proofreads and collaborators.
+This is a book under heavy construction. If this were a website in the year 2000, there would be an animated gif with some hard hats and traffic cones. A lot of it will be experiments to remind myself how to use Markdown, GitBook,  I'll include links here to recent tutorials for the benefit of my proofreads and collaborators.
 
 Markdown
 Vagrant tutorial
@@ -17,8 +17,6 @@ This book is a collection of tutorials, written in the style of a travel guide, 
 The book assumes a fairly technical background and aims to present things in a logical, ordered way so that later steps depend on previous steps. If I lose my memory due to some horrific science fiction disease that causes me to age years in a matter of days, and furthermore, I needed to recreate an Android app stat to save the universe, this is the book that I would need.
 
 
-This is the beginning of my book on Java for Android.
-The guiding philosophy is one from CodeFellows: Learn more faster.
 
 Based on my own experiences of Ruby on Rails. Rails is a popular web framework written in Ruby that is known for the ease with which one can deploy a backend.
 
@@ -28,4 +26,4 @@ There are a lot of intricacies of Java that you don't need to understand to lear
 Psychology
 ==========
 
-This book contains a lot of te
+This book contains a lot of topics, interludes, and supposed tangents that are not part of a normal textbook.
