@@ -53,6 +53,16 @@ Vagrant
 
 Vagrant is a tool for provisioning and controlling VirtualBox images and instances. Provisioning is the process of creating a virtual operating system container, allocating space for it, and installing packages.
 
-To start with
+Normally downloading all the files and configuring them for an Android development environment would take you many hours, probably over several days. As a new Android developer, this was time well spent for me to really learn at a low-level all the different steps and technical debugging skills. However, for you, I'd like you to save this time. One of the philosophical tenets in this book is to save you time when possible, to guide you in learning the best techniques and tools at the current moment to get up and running with the wild and woolly animal that is Android app development. But at the same time, we'd like to leave it open for you to continue exploring areas that interest you, and which you can take as a tangent.
 
+You are starting now as a newbie, a neophyte, Android programmer, much like I was when I started writing this book. However, we're going to help accelerate your growth as fast as humanly possible. We are hackers at heart, and one of the greatest joys in life is hacking our own learning process so that it can take a fraction of the time you would have spent learning on your own.
 
+By the end of this book, you'll be able to make your own tools, and improve on the ones we've given you. The primary tool right now is a VirtualBox image which contains the exact Android development environment that you  need to run the examples in this book without a hitch.
+
+If like me, you have difficulty focusing, than going on a guided tour (especially with a teacher or programming coach) will help you get the most out of this book.
+
+For this tutorial, we've created a snapshot which you can download here:
+
+[TODO Learn how to share virtualbox images via vagrant, possibly also distributed using ipfs].
+
+To start with, let's provision a simple image for an Ubuntu Linux box as a base
