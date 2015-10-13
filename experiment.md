@@ -9,8 +9,10 @@ Chapter Table of Contents
 
 With links to internal documents.
 
-[Article I](experiment/article_i.md)
+1. [Article I](experiment/article_i.md)
+1. [Article II](experiment/article_ii.md)
 
+I haven't quite got the hang of these footnotes yet.
 [arbitrary case-insensitive reference text]
 
 [arbitrary case-insensitive reference text]: https://www.duckduckgo.org
