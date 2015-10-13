@@ -62,6 +62,9 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ```
 When you are done, downloading, you'll see a lot of other [startup messages] which are shown in the appendix.
 
+You'll notice there are some error messagea bout the Guest Additions to VirtualBox which are necessary for, among other things, mounting shared folders. That's how you'll get the Android SDK files you'll need, especially if you downloaded them elsewhere.
+
+
 
 Troubleshooting
 ===============
