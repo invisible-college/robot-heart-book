@@ -4,6 +4,18 @@ Code is your craft. When you take pride in your craft, you can spend a lot of ti
 
 Think of your computer as your electronics workshop, and of individual software components inside of it as the resistors, soldering iron, and oscilloscope for building new creations.
 
+Android Software Development Kit
+================================
+
+A software development kit is all the files and tools you'll need to start writing an app using a particular platform or framework. In this case, the Android SDK is the official distribution from Google, and needs to be downloaded before you can do anything else.
+
+https://developer.android.com/sdk/installing/index.html
+
+If you'd like to download the standalone version, which you can use on the command-line or with any integrated development environment (IDE) like Eclipse or Android Studio, download the standalone version.
+
+These packages, up to API Version 23 (Android 6.0 ) can be found in this tutorial's VirtualBox image.
+
+
 Amazon Web Services (AWS)
 =========================
 
@@ -21,8 +33,14 @@ Elastic Computer Cloud (EC2)
 
 The most basic service AWS provides is a virtual computer running in the cloud, a home for you to run tasks. The major advantage of using EC2 is that it can be preconfigured for you, and it's always running. So you don't have to worry about the particular versions of software packages or operating systems running on your laptop, which may change over time and break your ability to compile and run your Android apps. That's what makes EC2 particularly useful for teaching, especially when combined with VirtualBox and Vagrant.
 
-Simple Storage
---------------
+Simple Storage Service
+----------------------
+
+Often you need a place to keep persistent storage on the web that you can access in a uniform, public way. You can't keep files like this in Heroku, since they got stomped over every time you re-deploy, and in general, Heroku limits the amount of filesystem storage you can use. It's also good engineering practice to keep your data, especially when there's a lot of it (potentially gigabytes) separate from your code, which is much smaller (.
+
+Enter S3, AWS's storage service. You could store things in DropBox, but you'll probably run up against the free 14 GB or so limit pretty soon, especially if you're collaborating with more than a few people or have Camera Sync turned on.
+
+We'll be using S3 for a variety of purposes in this book, including distributing the  main VirtualBox image.
 
 Virtualization
 ==============
@@ -66,3 +84,8 @@ For this tutorial, we've created a snapshot which you can download here:
 [TODO Learn how to share virtualbox images via vagrant, possibly also distributed using ipfs].
 
 To start with, let's provision a simple image for an Ubuntu Linux box as a base
+
+Ansible
+-------
+
+Consider.It uses Ansible for provisioning. I should read more about it, and why I should use it instead of just creating a single authoritative image and distributing that everywhere.
