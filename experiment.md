@@ -9,7 +9,7 @@ Chapter Table of Contents
 
 With links to internal documents.
 
-[Article I](article_i.md)
+[Article I](experiment/article_i.md)
 
 [arbitrary case-insensitive reference text]
 
