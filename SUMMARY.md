@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Tools](tools.md)
-   * Vagrant and VirtualBox
+   * [Vagrant and VirtualBox](tools/vagrant_vbox.md)
 * [Java Collections](java_collections.md)
 * [Java Networking](java_networking.md)
 * [Parse](chapter1.md)
