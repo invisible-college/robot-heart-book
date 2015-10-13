@@ -50,4 +50,6 @@ Picasso is an example of a third-party JAR file. The way we include it in our pr
 Adding a Third-Party Library
 ============================
 
-1. Add the jar file (in this case, picasso-
+1. Download the jar file (in this case, picasso-2.5.2.jar) from Square's github page: http://square.github.io/picasso/
+2. Move it into your main module (usually called app) into the lib directory.
+3. Add it to your build.gradle.
