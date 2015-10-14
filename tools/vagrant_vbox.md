@@ -62,7 +62,26 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ```
 When you are done, downloading, you'll see a lot of other [startup messages] which are shown in the appendix.
 
-You'll notice there are some error messagea bout the Guest Additions to VirtualBox which are necessary for, among other things, mounting shared folders. That's how you'll get the Android SDK files you'll need, especially if you downloaded them elsewhere.
+You'll notice there are some error messages about the Guest Additions to VirtualBox which are necessary for, among other things, mounting shared folders. That's how you'll get the Android SDK files you'll need, especially if you downloaded them elsewhere. Don't worry about the error messages about X Windows, we won't be using the graphical interface until later.
+
+Bringing up the VirtualBox image in this way is a dry run to trigger installation of the Guest Additions.
+
+[TODO: Add screenshots for adding a Mounted Shared Folder, but we don't need them now]
+
+We will often use our VirtualBox image from the command-line.
+If you start up the VirtualBox graphical interface, you will see
+
+While
+
+Note that this base image of Ubuntu uses an insecure key, so that anyone can at least log into this machine once. Vagrant will immediately generate your own keypair stored locally on your own machine, and insert this key into the Ubuntu image.
+
+```
+    default: SSH address: 127.0.0.1:2200
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+```
+
+The way you'll connect to the box is by using the `vagrant ssh`.
 
 
 
@@ -213,4 +232,4 @@ References
 ----------
 
 * [Official Vagrant documentation for creating a new base box](https://docs.vagrantup.com/v2/getting-started/index.html)
-* [New Relic tutorial]()
+* [Sitepoint tutorial for building and sharing a VirtualBox](http://www.sitepoint.com/create-share-vagrant-base-box/)
