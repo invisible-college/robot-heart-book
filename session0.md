@@ -92,7 +92,26 @@ Choose a blank Activity, which is the main building block of an Android app's op
 
 ![Configure new project](images/blank-activity.png)
 
-# Coding
+# Project Structure
+
+Android projects have a file structure which separates code, build files, and resources. It may seem like a lot to navigate at first, but it will help keep your code organized later on. Let's take a look around to familiarize ourselves.
+
+* `.gradle`
+*` .idea`
+* `app`
+* build
+* gradle
+* .gitignore
+* build.gradle
+* gradle.properties
+* gradlew
+* gradlew.bat
+* local.properties
+* settings.gradle
+
+
+
+Let's take a look around the Android project structure 
 
 Our goals are to:
 
