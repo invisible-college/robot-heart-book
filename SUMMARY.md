@@ -3,7 +3,6 @@
 * [Introduction](README.md)
 * [Tools](tools.md)
    * [Vagrant and VirtualBox](tools/vagrant_vbox.md)
-* [Java Networking](java_networking.md)
 * [Parse](chapter1.md)
 * [Activity Lifecycle](activity_lifecycle.md)
 * [Local Storage](local_storage.md)
