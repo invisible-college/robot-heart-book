@@ -14,7 +14,6 @@
 * [Touchscreen Input](touchscreen_input.md)
 * [Image Loading](image_loading.md)
 * [The Sound Institute of So Und](so_und.md)
-* [All Aboard the Statebus](statebus.md)
 * [Experiment](experiment.md)
    * [Article I](experiment/article_i.md)
 
