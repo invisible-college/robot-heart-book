@@ -1,2 +1,0 @@
-# Maps and Geoprogramming
-
