@@ -59,6 +59,7 @@ Android numbers each API, sometimes called an API Level, which developers are ex
 
 
 **For these tutorials, we will concentrate on API Level 22**, on the assumption that by the time you complete the course, Lollipop will represent a more sizable fraction of available devices that you will wish to target. And of course, the author's smartphone right now is running API 22 :smile:
+However, we will ask you to install both API Level 22 and 23 (Marshmallow, or Android 6.0) which was newly released at the time of this writing. The reason is that soon many current devices will be running API Level 23, and we want you to be able to quickly take advantage of their new features in future versions of this tutorial.
 
 # Integrated Development Environment
 
@@ -75,8 +76,8 @@ Originally, these tools were all separate programs that you had to install, conf
 * As you are setting up Android Studio, you'll need to select SDK packages to
 install. These are the packages you should select:
 
-![SDK Packages 1](images/sdk-packages-1.png)
-![SDK Packages 2](images/sdk-packages-2.png)
+![SDK Packages 1](screenshots/sdk-packages-1.png)
+![SDK Packages 2](screenshots/sdk-packages-2.png)
 
 This may take several minutes and up to an hour, depending on how fast your computer and network connection are. Leave ample time before the workshop to do this step, so that you can be prepared to participate.
 
