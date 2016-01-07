@@ -102,29 +102,50 @@ Android projects have a file structure which separates code, build files, and re
 * `.idea`
   * files needed for IntelliJ IDEs, such as Android Studio. We don't need to version control these or worry about them.
 * `app`
-  * 
+  * The main module, all your Java source files and resources
 * `build`
-  * 
+  * Generated intermediate and output files
 * `gradle`
 * `.gitignore`
 * `build.gradle`
+  * Top-level Gradle build file.
 * `gradle.properties`
   * 
 * `gradlew`
+  * The gradle wrapper script 
 * `gradlew.bat`
 * `local.properties`
 * `settings.gradle`
 
+# High-Levels Coding Goals:
 
 
-Let's take a look around the Android project structure 
+After creating an empty project with a blank activity:
 
-Our goals are to:
+1. Give the TextView an ID.
+1. In the `onCreate` method, have that TextView programmatically set its display text to "Hello World" from a string resource (the hello string).
+1. Add another string that says good-bye in a language of your choice (the goodbye string).
+1. Create an `onClick` handler, so that when you click on it, it changes the text. (Programmatically changing the hello string to the goodbye string).
+1. Register the `onClick` listener.
+1. Change the `onClick` handler to toggle the text
 
-1. Create a blank Activity with a TextView.
-1. Have that TextView display "Hello World" from a string resource.
-1. Register an onClick handler, so that when you click on it, it says "Goodbye World"
+## Give the TextView an ID
 
+## In `onCreate`, set the text
+
+
+![Add a hello string](screenshots/code-string-1.png)
+
+
+## Add a Good-bye string
+
+![Add a good-bye string](screenshots/code-string-goodbye.png)
+
+## Register the `onClick` Listener
+
+![Register the onClick listener](screenshots/code-set-onclick.png)
+
+## Toggle the text when touched
 
 
 # Generating an APK
@@ -233,8 +254,18 @@ After you've generated your app, click the upload button.
 ## Filling out the necessary information
 
 
-### Store Listing
-
 ![Fill out the Store Listing info](screenshots/publish-store-listing.png)
 
+![Add graphics](screenshots/publish-graphics.png)
 
+![Rate the content](screenshots/publish-content-rating.png)
+
+![At any time, find out what remains to be done.](screenshots/publish-why-cant-i.png)
+
+# Troubleshooting
+
+## What if Google Play complains about my package name?
+
+![](screenshots/publish-error-package.png)
+
+You probably forgot to change the package from the default `com.example`, which is restricted. Try making your own package, like `me.paulpham` which matches your website.
