@@ -85,30 +85,35 @@ This may take several minutes and up to an hour, depending on how fast your comp
 
 The simplest app you can think of is one with just a blank screen with some words. By ancient tradition, these words must be "Hello World". Start by running Android Studio and choosing "Create new project".
 
-![Create new project](images/create-new-project.png)
-![Configure new project](images/config-new-project.png)
-![Target android device](images/target-android-devices.png)
+![Create new project](screenshots/create-new-project.png)
+![Configure new project](screenshots/config-new-project.png)
+![Target android device](screenshots/target-android-devices.png)
 
 Choose a blank Activity, which is the main building block of an Android app's operation.
 
-![Configure new project](images/blank-activity.png)
+![Configure new project](screenshots/blank-activity.png)
 
 # Project Structure
 
 Android projects have a file structure which separates code, build files, and resources. It may seem like a lot to navigate at first, but it will help keep your code organized later on. Let's take a look around to familiarize ourselves.
 
 * `.gradle`
-*` .idea`
+  * files needed for gradle, the official build system used by Google and Android Studio.
+* `.idea`
+  * files needed for IntelliJ IDEs, such as Android Studio. We don't need to version control these or worry about them.
 * `app`
-* build
-* gradle
-* .gitignore
-* build.gradle
-* gradle.properties
-* gradlew
-* gradlew.bat
-* local.properties
-* settings.gradle
+  * 
+* `build`
+  * 
+* `gradle`
+* `.gitignore`
+* `build.gradle`
+* `gradle.properties`
+  * 
+* `gradlew`
+* `gradlew.bat`
+* `local.properties`
+* `settings.gradle`
 
 
 
@@ -146,11 +151,11 @@ Make sure that your app has built without errors, and runs correctly the way you
 
 Within Android Studio, from the `Build` menu, click `Generate Signed APK...`.
 
-![Generate a signed APK](images/generate-apk.png)
+![Generate a signed APK](screenshots/generate-apk.png)
 
 Choose a module (in this case, the default one called `app`) to be the primary one in your app, the one that is the entry point.
 
-![Choose a module to generate an APK one](images/generate-module.png)
+![Choose a module to generate an APK one](screenshots/generate-module.png)
 
 ## Keys, Signing, and Passwords
 
@@ -160,31 +165,31 @@ You can have multiple keys for signing different apps, or even different version
 
 If you already have a keystore, perhaps because you've developed other Android apps in the past, you can go head and select that keystore now by navigating to it and selecting the `Choose Existing` button. (You'll need the keystore password from when you created the keystore). It's not necessary to check "Remember passwords" right now, but if you do this a lot in the future, you can check it temporarily to save time.
 
-![Choose or create a keystore](images/generate-keystore-1.png)
+![Choose or create a keystore](screenshots/generate-keystore-1.png)
 
 If you don't already have a keystore, because this is your very first time, go ahead and choose the `Create new` button instead.
 
 In either case, you will need to choose a location and filename for either your new keystore or your existing keystore. Clicking the `...` button will bring up a filesystem dialog box that will let you navigate the files on your computer. Type the desired filename at the bottom of the dialog box, and give it a `.jks` filename extension. Then choose `OK`.
 
-![Create a new keystore](images/create-new-keystore.png)
+![Create a new keystore](screenshots/create-new-keystore.png)
 
 Now that you have a keystore, you will want to create a new key for this app. Fill in the `Alias` and choose another secure password for the `Password` and `Confirm` blanks. Accept the default validity of 25 years, and you can also fill in the default `Organizational Unit`, `Organization`, `City or Locality`, `State of Province`, or `Country Code`. You should of course, fill in your own first and last name to give yourself proper credit.
 
-![Create a new key](images/create-new-key.png)
+![Create a new key](screenshots/create-new-key.png)
 
 At the end of this process, you'll have a keystore and key chosen, with the correct passwords filled in, which will look like the dialog below.
 
-![Keystore and key filled out](images/generate-keystore-2.png)
+![Keystore and key filled out](screenshots/generate-keystore-2.png)
 
 You'll click `Next` to select the build type, which is either `debug` or `release`. Debug builds contain extra information that make it easy to fix errors using the Android monitor and other tools. This is usually what you'll email or give to friends and beta testers. However, to upload to the Google Play Store, you'll need a release build. Don't worry about app flavors for now.
 
-![Choose a build type for your APK](images/generate-build-type.png)
+![Choose a build type for your APK](screenshots/generate-build-type.png)
 
 Finally, your app will build as Gradle grinds slowly and deliberately. As it's building, you'll see messages displaying for the target
 
-![Generate release APK gradle messages](images/.png)
+![Generate release APK gradle messages](screenshots/.png)
 
-![APK finished toast notification](images/generate-apk.png)
+![APK finished toast notification](screenshots/generate-apk.png)
 
 # Google Play Store
 
@@ -208,34 +213,38 @@ To upload your app, you need to associate it with an account. This will tell you
 
 Normally, Google charges $25 to open a new Google Play Developer account. However, for participating in an Invisible College workshop, you'll receive an email invite to our shared account which will let you practice publishing apps for free. If you haven't received your invitation, contact your instructor.
 
-![Google Play invite email](images/play-invite.png)
-![After you accept your invite](images/accepted-invite.png)
+![Google Play invite email](screenshots/play-invite.png)
+![After you accept your invite](screenshots/accepted-invite.png)
 
 You are of course, welcome to create your own Google Play Account, especially if you are ready to start publishing production-quality apps on your own.
 
-![After you've created a new Google Play developer account.](images/play-new-account.png)
+![After you've created a new Google Play developer account.](screenshots/play-new-account.png)
 
 In either case, whether you accept the Invisible College invite or create your own Play developer account, you'll need to log into your Google account. Unfortunately, that means you'll have to create a Google account if you don't already have one (in general, I am opposed to creating new accounts and giving away your personal information if you don't have to).
 
-![Log into your google account](images/google-login.png)
+![Log into your google account](screenshots/google-login.png)
 
 There are now several steps to complete to activate your account.
 You should read the Google Play Developer Distribution, which governs the rules under which you can publish apps to the Google Play and your rights and responsibilities. If you agree, check the box and continue. (If you don't agree, unfortunately you can't continue. See legal disclaimer above!)
 
-![Agree to the Google Play agreement](images/play-agree.png)
+![Agree to the Google Play agreement](screenshots/play-agree.png)
 
 
 After logging in, you should see a list of all apps that you have permission to edit on this account.
 
-![View all apps](images/play-all-apps.png)
+![View all apps](screenshots/play-all-apps.png)
 
 ## Adding a new application
 
 After you've generated your app, click the upload button.
 
-![Dialog to upload your APK](images/upload-apk.png)
+![Dialog to upload your APK](screenshots/upload-apk.png)
 
 ## Filling out the necessary information
 
 
-###
+### Store Listing
+
+![Fill out the Store Listing info](screenshots/publish-store-listing.png)
+
+
