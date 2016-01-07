@@ -133,6 +133,9 @@ After creating an empty project with a blank activity:
 
 ## Give the TextView an ID
 
+![](screenshots/code-textview-id.png)
+
+
 ## In `onCreate`, set the text
 
 
