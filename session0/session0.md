@@ -151,7 +151,7 @@ Press `alt+enter` (on Mac OSX) to see options for fixing the red squiggly lines.
 
 ![](screenshots/code-popup-impl.png)
 
-![](screenshots/code-dialog-onclic.png)
+![](screenshots/code-dialog-onclick.png)
 
 
 ## Register the `onClick` Listener
@@ -159,6 +159,9 @@ Press `alt+enter` (on Mac OSX) to see options for fixing the red squiggly lines.
 ![Register the onClick listener](screenshots/code-set-onclick.png)
 
 ## Toggle the text when touched
+
+![](screenshots/code-popup-r-id.png)
+![](screenshots/code-popup-r-string.png)
 
 
 # Generating an APK
