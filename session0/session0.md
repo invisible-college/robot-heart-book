@@ -129,6 +129,8 @@ After creating an empty project with a blank activity:
 1. Register the `onClick` listener.
 1. Change the `onClick` handler to toggle the text
 
+![Default blank project after wizard](screenshots/code-blank.png)
+
 ## Give the TextView an ID
 
 ## In `onCreate`, set the text
@@ -140,6 +142,17 @@ After creating an empty project with a blank activity:
 ## Add a Good-bye string
 
 ![Add a good-bye string](screenshots/code-string-goodbye.png)
+
+## Create the `onCLick` Listener
+
+![Extend `onClickListener`](screenshots/code-impl-onclick.png)
+
+Press `alt+enter` (on Mac OSX) to see options for fixing the red squiggly lines.
+
+![](screenshots/code-popup-impl.png)
+
+![](screenshots/code-dialog-onclic.png)
+
 
 ## Register the `onClick` Listener
 
