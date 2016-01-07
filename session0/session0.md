@@ -122,6 +122,7 @@ Android projects have a file structure which separates code, build files, and re
 
 After creating an empty project with a blank activity:
 
+1. Create a virtual device for the emulator.
 1. Give the TextView an ID.
 1. In the `onCreate` method, have that TextView programmatically set its display text to "Hello World" from a string resource (the hello string).
 1. Add another string that says good-bye in a language of your choice (the goodbye string).
@@ -131,6 +132,19 @@ After creating an empty project with a blank activity:
 
 ![Default blank project after wizard](screenshots/code-blank.png)
 
+## Create an Emulator
+
+![](screenshots/avd-manager.png)
+![](screenshots/avd-list.png)
+![](screenshots/avd-list-create.png)
+![](screenshots/avd-new-sysimage.png)
+![](screenshots/avd-new-settings.png)
+![](screenshots/avd-new-created.png)
+
+Now let's run the project!
+
+![](screenshots/emulator-hello.png)
+
 ## Give the TextView an ID
 
 ![](screenshots/code-textview-id.png)
@@ -138,15 +152,13 @@ After creating an empty project with a blank activity:
 
 ## In `onCreate`, set the text
 
-
 ![Add a hello string](screenshots/code-string-1.png)
-
 
 ## Add a Good-bye string
 
 ![Add a good-bye string](screenshots/code-string-goodbye.png)
 
-## Create the `onCLick` Listener
+## Create the `onClick` Listener
 
 ![Extend `onClickListener`](screenshots/code-impl-onclick.png)
 
@@ -166,6 +178,9 @@ Press `alt+enter` (on Mac OSX) to see options for fixing the red squiggly lines.
 ![](screenshots/code-popup-r-id.png)
 ![](screenshots/code-popup-r-string.png)
 
+![](screenshots/emulator-goodbye.png)
+
+Verify that it works!
 
 # Generating an APK
 
