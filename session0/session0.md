@@ -242,7 +242,7 @@ The final hurdle to unveiling your app to the world is making it available on an
 
 Once you have an account, you can just go to the store directly and skip the follow section on Creating an account.
 
-[Google Play Developer Console](play.google.com/apps/publish)
+[Google Play Developer Console](http://play.google.com/apps/publish)
 
 Google is the principal company promoting Android development. It also comes pre-installed on all current Android phones. However, Amazon's AppStore is a recent competitor, and one that comes preinstalled on Kindle devices, and more competition is always good for the users. We'll cover the AppStore in later chapters of this book, but the process will follow the same general steps.
 
