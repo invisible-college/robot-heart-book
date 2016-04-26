@@ -93,6 +93,18 @@ Choose a blank Activity, which is the main building block of an Android app's op
 
 ![Configure new project](screenshots/blank-activity.png)
 
+# Gradle Daemon
+
+Gradle is the build system that automatically builds your app in the background. It is trusty and reliable, but often slow to start up. You can speed things up by telling Gradle to stay in memory in between builds by enabling daemon mode.
+
+In the file `gradle.properties` add the following line.
+
+```
+org.gradle.daemon=true
+```
+
+This should make your gradle build up to four times faster! Enjoy.
+
 # Project Structure
 
 Android projects have a file structure which separates code, build files, and resources. It may seem like a lot to navigate at first, but it will help keep your code organized later on. Let's take a look around to familiarize ourselves.
